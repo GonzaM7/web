@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le&Co</title>
+    <link rel="icon" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-bs-theme="light">
+    <div class="hero">
+        <span class="hero-img"></span>
+        <div class="hero-title">
+            <div class="hero-container">
+                <h1 class="h-title">Le<span id="h-title_s">&</span>Co</h1>
+                <h3 class="hs-title">Legumbres & Comoditties</h3>
+                <a class="h-button" href="#about">Descubrinos</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <a class="btn-menu btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample"><i class=" fa-solid fa-bars-staggered fa-lg"></i> Menu
+    </a>
+    <!----------------------------------------------- ABOUT ------------------------------------------------->
+    <section class="about-container ">
+        <div id="about" class="f-wrap">
+        </div>
+
+
+        <div class="about-items row">
+            <div class="col-lg-6 col-sm-12 col-md-12">
+                <div class="f-item card">
+                    <div class="card-body">
+                        <img src="img/AG-II.jpg" class="card_img" alt="...">
+                        <h5 class="card-title item-card_title">Special title treatment</h5>
+                        <p class="card-text item-card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda, sunt quibusdam! Odio provident quam dolorem perspiciatis corrupti tempora eum,
+                            natus dignissimos, cupiditate voluptatem maxime ipsam modi facere dicta repellendus illum.
+                            Suscipit deserunt, aliquid quia facilis ratione quas magnam ex vero sit excepturi nulla.
+                            Inventore porro asperiores corrupti aliquid, doloremque necessitatibus quo praesentium
+                            doloribus? Est dicta, debitis nulla suscipit doloremque facere?
+                            Minima, tempora numquam? A repellendus sed natus corrupti repellat incidunt odit tempora
+                            assumenda molestiae delectus eveniet similique esse, voluptate dolores non deleniti animi
+                            fugit accusantium dignissimos saepe, voluptates ratione! Inventore?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12">
+                <div class="s-item card">
+                    <div class="s-item__body card-body">
+                        <img src="img/AG-I.jpg" class="card_img" alt="...">
+                        <p class="card-text item-card_text2">Le&Co es una empresa de la provincia de Córdoba-Argentina
+                            dedicada a la actividad productiva agrícola. Somos un equipo de trabajo que cuenta con
+                            recurso humano joven, que comparte políticas y objetivos. Nos caracteriza la optimización e
+                            integración de la inversión productiva en cada una de sus etapas.Creemos que los negocios
+                            exitosos se logran integrando toda la cadena productiva, desde la planificación del cultivo
+                            hasta la comercialización de su producido.</p>
+                        <h5 class="card-title item-card_title">Special title treatment</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------------------------- OFFCANVAS ------------------------------------------------->
+        <div class="offcanvas offcanvas-start h-auto" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <img src="logo.png" id="logo" alt="">
+                <div id="id-brand" class="offcanvas-brand__text">
+                    <span class="offcanvas-title" id="offcanvasExampleLabel"><strong>Le&Co</strong></span>
+                    <span class="offcanvas-subtitle">Legumbres & Comoditties</span>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="list-group position-relative">
+                    <a href="#" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-house fa-lg"></i>
+                        </div>Inicio
+                    </a>
+                    <a href="#about" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-user fa-lg"></i></div>Sobre
+                        Nosotros
+                    </a>
+                    <a href="#" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-seedling fa-lg"></i></div>Legumbres
+                        Mediterraneas
+                    </a>
+                    <a href="#" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-warehouse fa-lg"></i></div>Servicio de
+                        procesamiento
+                    </a>
+                    <a href="#" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-ship fa-lg"></i></div>Exportación
+                    </a>
+                    <a href="#" class="items-lista list-group-item">
+                        <div class="align-item"><i class="icon fa-solid fa-envelope fa-lg"></i></div>Contacto
+                    </a>
+
+                    <span class="theme list-group-item">
+                        <div class="align-item"><i id="id-icon" class="icon fa-solid fa-moon fa-lg"></i></div>
+                        <span id="text-mode" class="icon-mode">Modo
+                            Oscuro</span>
+                        <div class="mode">
+                            <i id="id-toggle" onclick="cambiarTema()" class="fa-solid fa-toggle-off fa-xl"></i>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+<script src="https://kit.fontawesome.com/ab9b54a618.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>

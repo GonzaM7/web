@@ -136,19 +136,27 @@ p {
 
 #text-mode {
     font-family: 'Poppins';
+    padding-left: 0.3rem
 }
 
 @media (max-width:600px) {
     .theme {
-        margin-top: 1rem;
+        margin-top: 11rem;
     }
 
     .offcanvas-body {
         padding: 0 1rem;
     }
 
-    #text-mode {
-        padding-left: 0.3rem;
+}
+
+@media (max-width:360px) {
+    .theme {
+        margin-top: 1rem;
+    }
+
+    .offcanvas-body {
+        padding: 0 1rem;
     }
 
 }

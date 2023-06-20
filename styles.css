@@ -159,7 +159,7 @@ p {
 
 /* -------------------------------------------------Hero ------------------------------------------------- */
 .hero {
-    background-image: url(campo.webp);
+    background-image: url(campo.jpg);
     background-size: cover;
     height: 100vh;
     position: relative;

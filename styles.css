@@ -135,17 +135,13 @@ p {
     padding-left: 0.3rem
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .theme {
         margin-top: 11rem;
     }
 
     .offcanvas-body {
         padding: 0 1rem;
-    }
-
-    .offcanvas {
-        --bs-offcanvas-width: 100%;
     }
 
 }
@@ -157,10 +153,6 @@ p {
 
     .offcanvas-body {
         padding: 0 1rem;
-    }
-
-    .offcanvas {
-        width: 4px;
     }
 
 }

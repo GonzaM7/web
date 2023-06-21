@@ -135,28 +135,6 @@ p {
     padding-left: 0.3rem
 }
 
-@media (max-width:600px) {
-    .theme {
-        margin-top: 11rem;
-    }
-
-    .offcanvas-body {
-        padding: 0 1rem;
-    }
-
-}
-
-@media (max-width:360px) {
-    .theme {
-        margin-top: 1rem;
-    }
-
-    .offcanvas-body {
-        padding: 0 1rem;
-    }
-
-}
-
 /* -------------------------------------------------Hero ------------------------------------------------- */
 .hero {
     background-image: url(campo.jpg);
@@ -266,4 +244,40 @@ p {
 
 .item-card_text2 {
     margin-bottom: 13%;
+}
+
+
+
+
+
+/* ------------------------------------------------- Media Querys ------------------------------------------------- */
+
+@media (max-width:600px) {
+    .theme {
+        margin-top: 11rem;
+    }
+
+    .offcanvas-body {
+        padding: 0 1rem;
+    }
+
+}
+
+@media (max-width:380px) {
+    .theme {
+        margin-top: 1rem;
+    }
+
+    .offcanvas-body {
+        padding: 0 1rem;
+    }
+
+    .h-title {
+        font-size: 6rem;
+    }
+
+    .hs-title {
+        font-size: 1.3rem;
+    }
+
 }
